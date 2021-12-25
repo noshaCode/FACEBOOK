@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    background-color: #4867aa;
+    height: 60px;
+    justify-content: space-between;
+}
+
+.nav-form {
+    color: #fdfefe;
+    display: flex;
+    margin-right: 10px;
+}
+
+.nav-form>div>input {
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.nav-form>div>label {
+    margin-left: 10px;
+}
+
+.block {
+    display: block;
+}
+
+.nav-btn {
+    background-color: #5872a7;
+    color: #fdfefe;
+    margin-top: 25px;
+    margin-left: 5px;
+    cursor: pointer;
+    padding: 0 5px;
+}
+
+.main-aside-bar {
+    display: flex;
+    margin-top: 20px;
+    background-color: #f1f3f8;
+    padding: 20px;
+}
+
+aside {
+    margin-left: 20px;
+    margin-right: 20px
+}
+
+main {
+    margin-left: 100px;
+}
+
+aside p {
+    color: #274d70;
+    font-weight: 600;
+    margin-left: 10px;
+    width: 500px;
+}
+
+main h5 {
+    color: #274d70;
+    font-weight: 600;
+    font-size: medium;
+}
+
+main>form>div {
+    display: flex;
+    margin-top: 10px;
+}
+
+main>form>div>label {
+    width: 115px;
+    text-align: end;
+}
+
+main>form>div>input,
+select {
+    margin-left: 5px;
+    height: 30px;
+    align-self: center;
+    width: 240px;
+    border: lightsteelblue 2px solid;
+}
+
+.main-under-form {
+    margin-left: 119px;
+    margin-top: 2px;
+    width: 270px;
+}
+
+a {
+    text-decoration: none;
+    color: #6e84b3;
+}
+
+.main-under-form hr {
+    margin-top: 10px;
+}
+
+.main-under-form button {
+    background-color: #66a54b;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.create-page-business {
+    width: 300px;
+    text-align: center;
+    margin: auto;
+}
+
+footer {
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p {
+    text-align: center;
+}
